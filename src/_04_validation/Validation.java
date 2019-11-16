@@ -11,7 +11,7 @@ public class Validation {
 	public static void main(String[] args) {
 		
 		Random randomMaker = new Random();
-		for ( i=0 <10; i++;) {
+		for (int  i=0; 1<10; i++); {
 		int randomNumber = randomMaker.nextInt(5);
 		
 		System.out.println(randomNumber);
@@ -34,6 +34,7 @@ public class Validation {
                 }
 		// 2. Repeat all the code above 10 times
 		     
+		    	 
+		     
 		// 3. Find someone to test out your program. They will like it :)
-	}
-}
+	
