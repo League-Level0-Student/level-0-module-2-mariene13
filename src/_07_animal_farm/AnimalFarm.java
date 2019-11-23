@@ -1,4 +1,4 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2019
+ //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
 package _07_animal_farm;
@@ -17,11 +17,29 @@ public class AnimalFarm {
 	public static void main(String[] args) {
 			
 		/* 1. Ask the user which animal they want, then play the sound of that animal. */			 
+		    for (int i = 0; i < 4; i++) {
+				
 			
+			String answer = JOptionPane.showInputDialog("which animal do you want");
 		/* 2. Make it so that the user can keep entering new animals. */
-
+            if(answer.equalsIgnoreCase("cat"))
+            {
+            	playMeow();
+            }
+            if(answer.equalsIgnoreCase("dog")){
+            	playWoof();
+            }
+            if(answer.equalsIgnoreCase("cow")){
+                playMoo();
+            }
+            if(answer.equalsIgnoreCase("duck")){
+            	playQuack();
+            }
+            if(answer.equalsIgnoreCase("llama")){
+            	playLlama();
+            }
 	}
-
+	}
 	static void playMoo() {
 		playNoise(mooFile);
 	}

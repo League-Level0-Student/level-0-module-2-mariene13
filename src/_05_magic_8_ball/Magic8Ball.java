@@ -19,7 +19,7 @@ public class Magic8Ball {
 	// 3. Print out this variable
            JOptionPane.showMessageDialog(null, "new Random");
 	// 4. Get the user to enter a question for the 8 ball
-          JOptionPane.showInputDialog(null, "do i have a carmex in my pocket");
+          JOptionPane.showInputDialog(null, "enter a question");
 	// 5. If the random number is 0
             if (number==0 ){
             	JOptionPane.showMessageDialog(null,"yess");
