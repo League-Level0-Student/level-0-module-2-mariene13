@@ -22,8 +22,11 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-		
-
+	tryCode(500);
+	tryCode(60);
+	tryCode(100);
+	tryCode(1);
+     for
 	}
 
 	static void tryCode(int guess) {
