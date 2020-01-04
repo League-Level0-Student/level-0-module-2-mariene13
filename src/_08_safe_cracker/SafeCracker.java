@@ -26,7 +26,9 @@ public class SafeCracker {
 	tryCode(60);
 	tryCode(100);
 	tryCode(1);
-     for
+	 for(int i =0;i<10000000;i++){
+    	 tryCode(i);
+     }
 	}
 
 	static void tryCode(int guess) {
